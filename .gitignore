@@ -1,0 +1,15 @@
+# modulos de node
+node_modules
+
+
+# ambientes
+env/.env.development
+env/.env.production
+env/.env.test
+
+
+# cobertura de los test
+coverage_unit
+
+
+

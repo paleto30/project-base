@@ -1,0 +1,40 @@
+{
+  "name": "base-proyect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev ./main.ts",
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "test": "jest",
+    "test-coverage":"NODE_OPTIONS=--experimental-vm-modules jest --coverage",
+    "test-app":"NODE_OPTIONS=--experimental-vm-modules jest test/app.spec.ts",
+    "test-func": "NODE_OPTIONS=--experimental-vm-modules jest test/fun.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "class-transformer": "0.5.1",
+    "class-validator": "0.14.1",
+    "cors": "2.8.5",
+    "dotenv": "16.4.5",
+    "express": "4.21.0",
+    "joi": "17.13.3",
+    "uuid": "10.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "2.8.17",
+    "@types/dotenv": "8.2.0",
+    "@types/express": "4.17.21",
+    "@types/jest": "29.5.13",
+    "@types/node": "22.5.5",
+    "@types/supertest": "6.0.2",
+    "@types/uuid": "10.0.0",
+    "jest": "29.7.0",
+    "supertest": "7.0.0",
+    "ts-jest": "29.2.5",
+    "ts-node-dev": "2.0.0"
+  }
+}
